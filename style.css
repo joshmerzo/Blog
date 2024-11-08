@@ -1,0 +1,135 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('Assets/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    padding-top: 20px;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #2c3e50;
+    font-size: 2.5rem;
+}
+
+h2, h3 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+header, footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #3498db;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #1abc9c;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Profile image */
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #000;
+}
+
+/* Feature box for About Me and Skills */
+.feature-box {
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-heading {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature-content {
+    font-size: 1.1em;
+}
+
+/* Skills section */
+.feature-box ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.feature-box ul li {
+    font-size: 1.1em;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+.btn {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #3498db;
+}
+
+footer a:hover {
+    color: #1abc9c;
+}
